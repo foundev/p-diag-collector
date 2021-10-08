@@ -4,7 +4,7 @@ Parallel diagnostics collector for Apache Cassandra™
 
 ## how to use
 
-````sh
+```sh
 p-diag-collector --type coss --hosts hosts.txt
 ```
 
@@ -16,18 +16,18 @@ curl -s https://raw.githubusercontent.com/foundev/p-diag-collector/scripts/insta
 
 ## how to build and run
 
-````sh
+```sh
 ./scripts/build
 ./bin/p-diag-collector -h
 ```
 
 ## how to build and run
 
-````sh
+```sh
 ./scripts/test
 ```
 
-##license
+## license
 
 MIT License
 
