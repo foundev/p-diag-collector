@@ -1,0 +1,8 @@
+#!/bin/bash
+    # scripts/all: Runs several things together: lint, test, clean and build
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+$DIR/lint
+$DIR/test
+$DIR/clean
+$DIR/build

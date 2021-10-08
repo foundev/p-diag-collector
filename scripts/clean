@@ -1,0 +1,5 @@
+#!/bin/bash
+# scripts/clean: Remove build binary files
+
+rm -fr ./bin
+mkdir ./bin

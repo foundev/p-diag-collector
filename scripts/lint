@@ -1,0 +1,5 @@
+#!/bin/bash
+# scripts/lint: verify no obvious bugs or layout problems are found
+
+gofmt -s -w . && \
+golangci-lint run

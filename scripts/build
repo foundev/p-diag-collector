@@ -1,0 +1,6 @@
+#!/bin/bash
+# scripts/build: Compiles binary and outputs it to the bin folder
+
+rm -fr ./bin
+mkdir ./bin
+go build -o bin/p-diag-collector .

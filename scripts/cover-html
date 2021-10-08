@@ -1,0 +1,5 @@
+#!/bin/bash
+# scripts/cover-html: See the coverage report in a webpage
+
+t="/tmp/go-cover.$$.tmp"
+go test -race -covermode=atomic -coverprofile=$t ./... && go tool cover -html=$t && unlink $t
